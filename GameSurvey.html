@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./styles.css">
+        <title>Game of The Decade Survey</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      
+        <header>
+            <h1 id="title">
+                Game Of The Decade Survey
+            </h1>
+            <p id="description">Vote for the best game of the decade, Wanderer</p>
+        </header>
+        <form id="survey-form">
+            <div class ="form-group">
+            <label id="name-label">Wanderer's Name <input class="form-input-fields" name="input-name-name" type="text" id="name" placeholder="What's your name?, Wanderer" required=""></label>
+            </div>
+            <div class ="form-group">
+            <label id="email-label">Wanderer's Email <input name="input-email-name" class="form-input-fields" type="email" id="email"  placeholder="Your email?, Weary traveler" required=""></label>
+            </div>
+            <div class ="form-group">
+            <label id="number-label">Age <input name="input-age-name"  type="number" id="number" class="form-input-fields"  placeholder="How old are you?" min="13" max="99"></label>
+            </div>
+            <div class ="form-group">
+            <label>
+                What is your Class of choice ?           
+                <select id="dropdown" class="form-input-fields" required="">
+                    <option>Warrior</option>
+                    <option>Guardian</option>
+                    <option>Cleric</option>
+                    <option>Sorcerer</option>
+                    <option>Marksman</option>
+                    <option>Assassin</option>                   
+                </select>
+            </label>
+            </div>
+            <div class ="form-group">
+            <p id="game-label">Choose The Best GAME of The Decade</p>
+            <label>
+                <input type="radio" name="input-radio-name" id="input-radio" value="sekiro"> Sekiro: Shadow's Die Twice
+            </label>
+            <label>
+                <input type="radio" name="input-radio-name" id="input-radio" value="dark-souls"> Dark Souls
+            </label>
+            <label>
+                <input type="radio" name="input-radio-name" id="input-radio" value="dogma"> Dragon's Dogma II
+            </label>
+            <label>
+                <input type="radio" name="input-radio-name" id="input-radio" value="cod"> Call of Duty: Black Ops 6
+            </label>
+            <label>
+                <input type="radio" name="input-radio-name" id="input-radio" value="gow"> God of War Ragnarök
+            </label>
+            <label>
+                <input type="radio" name="input-radio-name" id="input-radio" value="sparking-zero"> Dragon Ball: Sparking! ZERO
+            </label>
+            <label>
+                <input type="radio" name="input-radio-name" id="input-radio" value="doom"> Doom Eternal
+            </label>
+            <label>
+                <input type="radio" name="input-radio-name" id="input-radio" value="total-war"> Total War: Warhammer III
+            </label>
+            <label>
+                <input type="radio" name="input-radio-name" id="input-radio" value="poe"> Path of Exile
+            </label>
+            <label>
+                <input type="radio" name="input-radio-name" id="input-radio" value="mount-blade"> Mount & Blade: Bannerlord II
+            </label>
+
+            </div>
+            <div class ="form-group">
+            <p id="label-genre">What Are Your Favorite Genres?</p>
+            <label>
+                <input type="checkbox" name="input-check-name" id="input-check" value="rpg"> RPG 
+            </label>
+            <label>
+                <input type="checkbox" name="input-check-name" id="input-check" value="RTS"> RTS
+            </label>
+            <label>
+                <input type="checkbox" name="input-check-name" id="input-check" value="fps"> FPS
+            </label>
+            <label>
+                <input type="checkbox" name="input-check-name" id="input-check" value="arpg"> ARPG
+            </label>
+            <label>
+                <input type="checkbox" name="input-check-name" id="input-check" value="open-world"> Open-World
+            </label>
+            <label>
+                <input type="checkbox" name="input-check-name" id="input-check" value="action-adventure"> Action-Adventure
+            </label>
+            <label>
+                <input type="checkbox" name="input-check-name" id="input-check" value="action"> Action
+            </label>
+            <label>
+                <input type="checkbox" name="input-check-name" id="input-check" value="hack-slash"> Hack & Slash
+            </label>
+            
+            </div>
+            <div class ="form-group">
+            <p id="label-comment">Do you have more to say?, Weary traveler</p>
+            <textarea name="textarea-name" placeholder="Say what you wish" id="textarea-comment"></textarea>
+            </div>
+            <div class ="form-group">
+            <button id="submit" name="submit-button-name" type="submit">Submit</button>
+            </div>
+        </form> 
+    </body>
+</html>
